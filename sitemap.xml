@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+    
+    <!-- Начална страница -->
+    <url>
+        <loc>https://www.dr-yordanov.com/</loc>
+        <lastmod>2025-01-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://www.dr-yordanov.com/images/dr-yordanov.jpg</image:loc>
+            <image:title>Д-р Николай Йорданов</image:title>
+            <image:caption>УНГ специалист с над 25 години опит</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://www.dr-yordanov.com/images/office.jpg</image:loc>
+            <image:title>Кабинет на Д-р Йорданов</image:title>
+            <image:caption>Модерно оборудван УНГ кабинет</image:caption>
+        </image:image>
+    </url>
+
+    <!-- Секция За мен -->
+    <url>
+        <loc>https://www.dr-yordanov.com/#about</loc>
+        <lastmod>2025-01-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Секция Услуги -->
+    <url>
+        <loc>https://www.dr-yordanov.com/#services</loc>
+        <lastmod>2025-01-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Секция Видео локация -->
+    <url>
+        <loc>https://www.dr-yordanov.com/#video</loc>
+        <lastmod>2025-01-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+
+        <!-- Video 1: Parking entrance -->
+        <video:video>
+            <video:thumbnail_loc>
+                https://www.dr-yordanov.com/images/video-parking-thumb.jpg
+            </video:thumbnail_loc>
+            <video:title>Как да стигнете до кабинета – основен вход (паркинг)</video:title>
+            <video:description>
+                Видео упътване от първо лице през основния вход от паркинга до УНГ кабинет 31/34.
+            </video:description>
+            <video:content_loc>
+                https://www.dr-yordanov.com/videos/parking-entrance.mp4
+            </video:content_loc>
+            <video:duration>44</video:duration>
+            <video:publication_date>2025-01-11</video:publication_date>
+        </video:video>
+
+        <!-- Video 2: Hospital entrance -->
+        <video:video>
+            <video:thumbnail_loc>
+                https://www.dr-yordanov.com/images/video-hospital-thumb.jpg
+            </video:thumbnail_loc>
+            <video:title>Как да стигнете до кабинета – вход през стационар</video:title>
+            <video:description>
+                Видео упътване от първо лице през входа на стационар до УНГ кабинет 31/34.
+            </video:description>
+            <video:content_loc>
+                https://www.dr-yordanov.com/videos/hospital-entrance.mp4
+            </video:content_loc>
+            <video:duration>37</video:duration>
+            <video:publication_date>2025-01-11</video:publication_date>
+        </video:video>
+
+    </url>
+
+
+    <!-- Секция Отзиви -->
+    <url>
+        <loc>https://www.dr-yordanov.com/#reviews</loc>
+        <lastmod>2025-01-11</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.8</priority>
+    </url>
+
+    <!-- Секция Работно време -->
+    <url>
+        <loc>https://www.dr-yordanov.com/#schedule</loc>
+        <lastmod>2025-01-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Секция Контакт -->
+    <url>
+        <loc>https://www.dr-yordanov.com/#contact</loc>
+        <lastmod>2025-01-11</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.9</priority>
+    </url>
+
+    <!-- Офлайн страница -->
+    <url>
+        <loc>https://www.dr-yordanov.com/offline.html</loc>
+        <lastmod>2025-01-11</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.1</priority>
+    </url>
+</urlset>
