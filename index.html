@@ -116,7 +116,7 @@
           "name": "Какво е работното време на Д-р Йорданов?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Работното време се редува. Единия ден е от 08:30 до 11:50, на другия ден е от 11:30 до 15:10. Не работи в събота, неделя и на празници."
+            "text": "Понеделник, сряда и петък от 08:30 до 13:30. Вторник и четвъртък от 11:30 до 15:30. Не работи в събота, неделя и на празници."
           }
         },
         {
@@ -1200,6 +1200,15 @@
                                 <p style="margin:0;font-size:0.9rem;color:#666;">БЛС, БДО</p>
                             </div>
                         </div>
+                        <div class="credential-item">
+                            <div class="credential-icon" style="padding:0;">
+                                <img src="images/nzok_logo.png" alt="НЗОК" style="width:40px;height:40px;object-fit:contain;">
+                            </div>
+                            <div>
+                                <strong>НЗОК</strong>
+                                <p style="margin:0;font-size:0.9rem;color:#666;">Работи с НЗОК от 21.01.2026</p>
+                            </div>
+                        </div>
                     </div>
 
                     <a href="https://superdoc.bg/lekar/d-r-nikolay-yordanov-8082" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="margin-top:2rem;">📅 Запази час в SuperDoc</a>
@@ -1340,23 +1349,23 @@
                 <table class="schedule-table">
                     <tr>
                         <td>Понеделник</td>
-                        <td>08:30 - 11:50</td>
+                        <td>08:30 - 13:30</td>
                     </tr>
                     <tr>
                         <td>Вторник</td>
-                        <td>11:30 - 15:10</td>
+                        <td>11:30 - 15:30</td>
                     </tr>
                     <tr>
                         <td>Сряда</td>
-                        <td>08:30 - 11:50</td>
+                        <td>08:30 - 13:30</td>
                     </tr>
                     <tr>
                         <td>Четвъртък</td>
-                        <td>11:30 - 15:10</td>
+                        <td>11:30 - 15:30</td>
                     </tr>
                     <tr>
                         <td>Петък</td>
-                        <td>08:30 - 11:50</td>
+                        <td>08:30 - 13:30</td>
                     </tr>
                     <tr>
                         <td>Събота / Неделя</td>
@@ -1366,7 +1375,14 @@
 
                 <div style="text-align:center;margin-top:2rem;padding:1.5rem;background:rgba(0,168,204,0.1);border-radius:12px;">
                     <p style="color:var(--primary);font-weight:600;margin-bottom:0.5rem;">ℹ️ Важна информация</p>
-                    <p style="color:#666;">Работното време се редува - единия ден е сутрешна смяна (08:30-11:50), на другия ден е следобедна (11:30-15:10). Не работи в празнични дни.</p>
+                    <p style="color:#666;">Работното време се редува - понеделник, сряда и петък 08:30-13:30, вторник и четвъртък 11:30-15:30. Не работи в празнични дни.</p>
+                </div>
+
+                <div style="text-align:center;margin-top:1.5rem;padding:1.5rem;background:rgba(212,175,55,0.1);border-radius:12px;border:2px solid rgba(212,175,55,0.3);">
+                    <p style="color:var(--primary);font-weight:700;margin-bottom:0.5rem;font-size:1.1rem;display:flex;align-items:center;justify-content:center;gap:0.5rem;">
+                        <img src="images/nzok_logo.png" alt="НЗОК" style="width:28px;height:28px;object-fit:contain;"> Работи с НЗОК от 21.01.2026
+                    </p>
+                    <p style="color:#666;">Приема пациенти по здравна каса.</p>
                 </div>
 
                 <div style="text-align:center;margin-top:2rem;">
@@ -1450,7 +1466,7 @@
             </div>
 
             <div class="copyright">
-                <p>&copy; 2025 Д-р Николай Йорданов. Всички права запазени.</p>
+                <p>&copy; <span id="year"></span> Д-р Николай Йорданов. Всички права запазени.</p>
                 <p style="margin-top:0.5rem;font-size:0.9rem;">Член на Български лекарски съюз и Българско дружество по оториноларингология</p>
             </div>
         </div>
@@ -1596,6 +1612,8 @@
                     });
             });
         }
+
+        document.getElementById("year").textContent = new Date().getFullYear();
     </script>
 
     <!-- Advanced JavaScript -->
